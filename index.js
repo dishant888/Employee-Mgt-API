@@ -6,10 +6,10 @@ const UUIDv4 = require('uuid/v4')
 const cors = require('cors')
 
 const awsconfig = {
-    "region": "ap-south-1",
-    "endpoint": "http://dynamodb.ap-south-1.amazonaws.com/",
-    "accessKeyId": "AKIA6QO4D6HKWV7EDQ3F",
-    "secretAccessKey": "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"
+    "region": "SECRET",
+    "endpoint": "SECRET",
+    "accessKeyId": "SECRET",
+    "secretAccessKey": "SECRET"
 };
 
 AWS.config.update(awsconfig)
